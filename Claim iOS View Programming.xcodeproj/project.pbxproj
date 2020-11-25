@@ -15,6 +15,8 @@
 		7BE6F639256DC9A500DA2759 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BE6F637256DC9A500DA2759 /* LaunchScreen.storyboard */; };
 		7BE6F644256DC9A500DA2759 /* Claim_iOS_View_ProgrammingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE6F643256DC9A500DA2759 /* Claim_iOS_View_ProgrammingTests.swift */; };
 		7BE6F64F256DC9A500DA2759 /* Claim_iOS_View_ProgrammingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE6F64E256DC9A500DA2759 /* Claim_iOS_View_ProgrammingUITests.swift */; };
+		7BE6F660256DC9E200DA2759 /* ClaimService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE6F65F256DC9E200DA2759 /* ClaimService.swift */; };
+		7BE6F665256DCD4900DA2759 /* ViewGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE6F664256DCD4900DA2759 /* ViewGenerator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		7BE6F64A256DC9A500DA2759 /* Claim iOS View ProgrammingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Claim iOS View ProgrammingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BE6F64E256DC9A500DA2759 /* Claim_iOS_View_ProgrammingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Claim_iOS_View_ProgrammingUITests.swift; sourceTree = "<group>"; };
 		7BE6F650256DC9A500DA2759 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BE6F65F256DC9E200DA2759 /* ClaimService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaimService.swift; sourceTree = "<group>"; };
+		7BE6F664256DCD4900DA2759 /* ViewGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewGenerator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				7BE6F635256DC9A500DA2759 /* Assets.xcassets */,
 				7BE6F637256DC9A500DA2759 /* LaunchScreen.storyboard */,
 				7BE6F63A256DC9A500DA2759 /* Info.plist */,
+				7BE6F65F256DC9E200DA2759 /* ClaimService.swift */,
+				7BE6F664256DCD4900DA2759 /* ViewGenerator.swift */,
 			);
 			path = "Claim iOS View Programming";
 			sourceTree = "<group>";
@@ -258,9 +264,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BE6F660256DC9E200DA2759 /* ClaimService.swift in Sources */,
 				7BE6F631256DC9A400DA2759 /* ViewController.swift in Sources */,
 				7BE6F62D256DC9A400DA2759 /* AppDelegate.swift in Sources */,
 				7BE6F62F256DC9A400DA2759 /* SceneDelegate.swift in Sources */,
+				7BE6F665256DCD4900DA2759 /* ViewGenerator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
